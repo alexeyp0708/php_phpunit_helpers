@@ -1,0 +1,26 @@
+{
+    "name": "alpa/phpunit_helpers",
+    "description": "Helpers for writing PHP tests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alpa\\PhpunitHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Alpa\\PhpunitHelpers\\Tests\\": "tests/"
+    },
+    "authors": [
+        {
+            "name": "Alexey",
+            "email": "alexeyp0708@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4||^8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    }
+}
